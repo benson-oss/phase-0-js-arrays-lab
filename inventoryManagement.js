@@ -12,6 +12,7 @@ function addProduct(txt){
    return products.push(txt)
 }
 
+
 function updateProductName(index, newName) {
   if (index >= 0 && index < products.length) {
     products[index] = newName;   
