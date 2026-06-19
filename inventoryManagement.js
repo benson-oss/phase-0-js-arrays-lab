@@ -2,7 +2,6 @@
 // Array of product names
 const products = ["Laptop", "Phone", "Headphones", "Monitor"];
 
-
 function logFirstProduct() {
   console.log("Laptop");}
 
@@ -22,7 +21,6 @@ function updateProductName(index, newName) {
   }
 }
  
-
   function removeLastProduct() {
   return products.pop(); 
   }
